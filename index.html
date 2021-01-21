@@ -1,41 +1,46 @@
-<!--Versión 1.8-->
+<!-- Versión 1.9 -->
 <!DOCTYPE html>
 <html>
     <head>
         <title>Pagina Web 1</title>
         <link href="index-css.css" rel="stylesheet">
+        <link href="darkMode.css" rel="stylesheet">
     </head>
     <body>
     <div class="mainBox">
         <h1 class="titulosCentrados">SUMA</h1>
             <input class="inputs" id="suma1">
             <input class="inputs" id="suma2">
-            <button id="buttonSuma">SUMAR!</button>
+            <button id="buttonSuma" class="button">SUMAR!</button>
             <p class="resultados" id="resSum"></p>
     </div>
     <div>
         <h1 class="titulosCentrados">RESTA</h1>
             <input class="inputs" id="resta1">
             <input class="inputs" id="resta2">
-            <button id="buttonRest">RESTAR!</button>
+            <button id="buttonRest" class="button">RESTAR!</button>
             <p class="resultados" id="resRes"></p>
     </div>
     <div>
         <h1 class="titulosCentrados">DIVISIÓN</h1>
             <input class="inputs" id="div1">
             <input class="inputs" id="div2">
-            <button id="buttonDiv">DIVIDIR!</button>
+            <button id="buttonDiv" class="button">DIVIDIR!</button>
             <p class="resultados" id="resDiv"></p>
     </div>
     <div>
         <h1 class="titulosCentrados">MULTIPLICACIÓN</h1>
             <input class="inputs" id="mult1">
             <input class="inputs" id="mult2">
-            <button id="buttonMult">MULTIPLICAR!</button>
+            <button id="buttonMult" class="button">MULTIPLICAR!</button>
             <p class="resultados" id="resMul"></p>
+    </div>
+    <div id="customSection">
+        <button class="button" id="buttonDarkMode">Dark Mode</button>
     </div>
 
 
     </body>
+    <script src="darkmode.js"></script>
     <script src="mainFunction.js"></script>
 </html>

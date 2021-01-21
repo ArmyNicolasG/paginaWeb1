@@ -1,4 +1,4 @@
-// Versión 1.8
+// Versión 1.9
 
 var confirmadorSuma = document.getElementById('buttonSuma')
 confirmadorSuma.addEventListener("click", () => {

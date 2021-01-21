@@ -1,4 +1,11 @@
-/* Versión 1.8 */
-body{
-    background: cyan;
+/* Versión 1.9 */
+:root {
+    --color-mode: #0a9;
+    --color-mode-contrast: #555;
+}
+body {
+    background: var(--color-mode);
+}
+.titulosCentrados{
+    color: var(--color-mode-contrast)
 }
