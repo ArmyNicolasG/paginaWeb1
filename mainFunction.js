@@ -1,4 +1,4 @@
-// Versión 1.9
+// Versión 2.0
 
 var confirmadorSuma = document.getElementById('buttonSuma')
 confirmadorSuma.addEventListener("click", () => {
@@ -26,4 +26,3 @@ confirmadorSuma.addEventListener("click", () => {
     let num2Mult = parseInt(document.getElementById('mult2').value);
     document.getElementById('resMul').innerHTML = num1Mult * num2Mult
 })
-
