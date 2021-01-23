@@ -1,4 +1,4 @@
-// Versión 2.0
+// Versión 2.1
 var darkMode = document.getElementById('buttonDarkMode')
 darkMode.addEventListener("click", () => {
     document.documentElement.style.setProperty('--color-mode', '#555')

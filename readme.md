@@ -9,3 +9,7 @@
 
 1.9 html funcional, todas operaciones funcionales, mostrando resultado en pantalla, mod oscuro funcionando
 
+2.0 html funcional, todas operaciones funcionales, mostrando resultado en pantalla, mod oscuro funcionando, codigo simplificado funcionando, no adaptado
+
+2.1 html funcional, todas operaciones funcionales, mostrando resultado en pantalla, modo oscuro funcionando, código simplificado eliminado
+
